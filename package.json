@@ -35,7 +35,27 @@
       "Profiles",
       "Downloads",
       "Recommendations"
-    ]
+    ],
+    "screenshots": {
+      "hero": "screenshots/hero.png",
+      "images": [
+        "screenshots/1-main.png",
+        "screenshots/2-feature.png"
+      ]
+    },
+    "downloads": {
+      "web": "https://zos-apps.github.io/netflix"
+    },
+    "featured": false,
+    "tags": [
+      "media",
+      "audio",
+      "video",
+      "netflix"
+    ],
+    "releaseDate": "2024-12-28",
+    "support": "https://github.com/zos-apps/netflix/issues",
+    "changelog": "https://github.com/zos-apps/netflix/releases"
   },
   "scripts": {
     "build": "tsup",
