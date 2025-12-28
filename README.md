@@ -1,54 +1,75 @@
-# 🎬 Netflix
+# Netflix
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/zos-apps/netflix/releases)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Docs](https://img.shields.io/badge/docs-online-purple.svg)](https://zos-apps.github.io/netflix)
+🎬 Stream movies and TV shows from the Netflix library.
 
-> Streaming movies and TV shows
+[![CI](https://github.com/zos-apps/netflix/actions/workflows/ci.yml/badge.svg)](https://github.com/zos-apps/netflix/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/@zos-apps/netflix.svg)](https://www.npmjs.com/package/@zos-apps/netflix)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**[Documentation](https://zos-apps.github.io/netflix)** • **[App Store](https://zos-apps.github.io/app-store)** • **[All Apps](https://github.com/zos-apps)**
+## About
 
-## Installation
-
-```bash
-npm install github:zos-apps/netflix
-```
-
-Or install via the [zOS App Store](https://zos-apps.github.io/app-store).
-
-## Usage
-
-```tsx
-import Netflix from '@zos-apps/netflix';
-
-function App() {
-  return <Netflix />;
-}
-```
+Stream movies and TV shows from the Netflix library.
 
 ## Features
 
-- Native zOS window integration
-- Dark mode support
+- Video streaming
+- Continue watching
+- Profiles
+- Downloads
+- Recommendations
 
-- Context menu actions
-- Menu bar integration
+## Installation
 
-## Category
+### From App Store
+Open the **App Store** in zOS and search for "Netflix".
 
-**Media**
+### Via npm
+```bash
+npm install @zos-apps/netflix
+```
 
-## Permissions
+## Usage
 
-- `network`
+- Browse or search content
+- Click to play
+- Add to My List
 
-## Links
 
-- [Documentation](https://zos-apps.github.io/netflix)
-- [GitHub Repository](https://github.com/zos-apps/netflix)
-- [Report Issues](https://github.com/zos-apps/netflix/issues)
-- [All zOS Apps](https://github.com/zos-apps)
+
+## Development
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+## Documentation
+
+- [User Guide](https://zos-apps.github.io/netflix)
+- [API Reference](https://zos-apps.github.io/netflix/api)
+- [Changelog](https://github.com/zos-apps/netflix/releases)
+
+## Contributing
+
+Contributions are welcome! Please read our [Contributing Guide](https://github.com/zos-apps/netflix/blob/main/CONTRIBUTING.md) first.
 
 ## License
 
 MIT © [Hanzo AI](https://hanzo.ai)
+
+---
+
+<p align="center">
+  <a href="https://hanzo.ai">
+    <img src="https://hanzo.ai/logo.svg" alt="Hanzo AI" width="100">
+  </a>
+</p>
+<p align="center">
+  Built with ❤️ by <a href="https://hanzo.ai">Hanzo AI</a>
+</p>

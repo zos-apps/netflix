@@ -20,7 +20,22 @@
         "height": 800
       },
       "resizable": true
-    }
+    },
+    "about": "Stream movies and TV shows from the Netflix library.",
+    "help": [
+      "Browse or search content",
+      "Click to play",
+      "Add to My List"
+    ],
+    "docs": "https://zos-apps.github.io/netflix",
+    "site": "https://github.com/zos-apps/netflix",
+    "features": [
+      "Video streaming",
+      "Continue watching",
+      "Profiles",
+      "Downloads",
+      "Recommendations"
+    ]
   },
   "scripts": {
     "build": "tsup",
@@ -53,5 +68,13 @@
     "netflix",
     "macos",
     "desktop"
-  ]
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
