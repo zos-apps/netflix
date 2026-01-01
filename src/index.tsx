@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 interface NetflixProps { onClose: () => void; }
 
@@ -22,7 +22,7 @@ const categories = [
   { name: 'New Releases', shows: shows.slice(0, 4) },
 ];
 
-const Netflix: React.FC<NetflixProps> = ({ onClose }) => {
+const Netflix: React.FC<NetflixProps> = ({ onClose: _onClose }) => {
   const [selectedShow, setSelectedShow] = useState<typeof shows[0] | null>(null);
 
   if (selectedShow) {
